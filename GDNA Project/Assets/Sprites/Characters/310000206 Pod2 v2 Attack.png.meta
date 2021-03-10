@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: 4dd11e06ac0d27d4d8fa43d93a46a4b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6328013818411502571
+    second: 310000206 Pod2 v2 Attack_0
+  - first:
+      213: 2478219514971015086
+    second: 310000206 Pod2 v2 Attack_1
+  - first:
+      213: 3443229047268466200
+    second: 310000206 Pod2 v2 Attack_2
+  - first:
+      213: -865717595068384869
+    second: 310000206 Pod2 v2 Attack_3
+  - first:
+      213: 4308467609147354373
+    second: 310000206 Pod2 v2 Attack_4
+  - first:
+      213: 5987051173489773576
+    second: 310000206 Pod2 v2 Attack_5
+  - first:
+      213: 1549214540963482366
+    second: 310000206 Pod2 v2 Attack_6
+  - first:
+      213: 8385596114229661852
+    second: 310000206 Pod2 v2 Attack_7
+  - first:
+      213: 1760864859481204890
+    second: 310000206 Pod2 v2 Attack_8
+  - first:
+      213: 5171265431320260254
+    second: 310000206 Pod2 v2 Attack_9
+  - first:
+      213: 5299518203477226087
+    second: 310000206 Pod2 v2 Attack_10
+  - first:
+      213: 1610686151718721516
+    second: 310000206 Pod2 v2 Attack_11
+  - first:
+      213: 2128094529646253765
+    second: 310000206 Pod2 v2 Attack_12
+  - first:
+      213: -9169494576844348198
+    second: 310000206 Pod2 v2 Attack_13
+  - first:
+      213: 6975715265285002910
+    second: 310000206 Pod2 v2 Attack_14
+  - first:
+      213: -1614725416466890421
+    second: 310000206 Pod2 v2 Attack_15
+  - first:
+      213: -8781037097895226704
+    second: 310000206 Pod2 v2 Attack_16
+  - first:
+      213: -4886988841999818098
+    second: 310000206 Pod2 v2 Attack_17
+  - first:
+      213: 8756646175474827968
+    second: 310000206 Pod2 v2 Attack_18
+  - first:
+      213: -986124543105488950
+    second: 310000206 Pod2 v2 Attack_19
+  - first:
+      213: -5785840242604306281
+    second: 310000206 Pod2 v2 Attack_20
+  - first:
+      213: 8377198421374054542
+    second: 310000206 Pod2 v2 Attack_21
+  - first:
+      213: -4012897674645754883
+    second: 310000206 Pod2 v2 Attack_22
+  - first:
+      213: 2567293604236266970
+    second: 310000206 Pod2 v2 Attack_23
+  - first:
+      213: -4160648009825881978
+    second: 310000206 Pod2 v2 Attack_24
+  - first:
+      213: -2831188587731988392
+    second: 310000206 Pod2 v2 Attack_25
+  - first:
+      213: 7872857723845915902
+    second: 310000206 Pod2 v2 Attack_26
+  - first:
+      213: -5090933725476154688
+    second: 310000206 Pod2 v2 Attack_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3780
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514b1db95f06e28a0800000000000000
+      internalID: -6328013818411502571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3640
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7c949c487646220800000000000000
+      internalID: 2478219514971015086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e5eb2539ec8cf20800000000000000
+      internalID: 3443229047268466200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99b42e1f6a5cf3f0800000000000000
+      internalID: -865717595068384869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3220
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d21899670cacb30800000000000000
+      internalID: 4308467609147354373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3080
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c81ff4257461350800000000000000
+      internalID: 5987051173489773576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2940
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa8ffaba6aef7510800000000000000
+      internalID: 1549214540963482366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c901e82bc3f9f5470800000000000000
+      internalID: 8385596114229661852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2660
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9868de9249df6810800000000000000
+      internalID: 1760864859481204890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ee911e28604c740800000000000000
+      internalID: 5171265431320260254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2380
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762f9fe5abbab8940800000000000000
+      internalID: 5299518203477226087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7d5dd658e4a5610800000000000000
+      internalID: 1610686151718721516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6540813b2888d10800000000000000
+      internalID: 2128094529646253765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1960
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad46251b3496fb080800000000000000
+      internalID: -9169494576844348198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1820
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9615992318bec060800000000000000
+      internalID: 6975715265285002910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4142b5f9c75799e0800000000000000
+      internalID: -1614725416466890421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b29d6c884d732680800000000000000
+      internalID: -8781037097895226704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82ad436a8ded2cb0800000000000000
+      internalID: -4886988841999818098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2c5f84d4bd58970800000000000000
+      internalID: 8756646175474827968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac727e7e3f49052f0800000000000000
+      internalID: -986124543105488950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790196c34f094bfa0800000000000000
+      internalID: -5785840242604306281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80b6f67499c14470800000000000000
+      internalID: 8377198421374054542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbafbe73d25f48c0800000000000000
+      internalID: -4012897674645754883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add82a25eebd0a320800000000000000
+      internalID: 2567293604236266970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68074eadda86246c0800000000000000
+      internalID: -4160648009825881978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8505810daf895b8d0800000000000000
+      internalID: -2831188587731988392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4b60d3362024d60800000000000000
+      internalID: 7872857723845915902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000206 Pod2 v2 Attack_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1400
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c210f5efbe5959b0800000000000000
+      internalID: -5090933725476154688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
