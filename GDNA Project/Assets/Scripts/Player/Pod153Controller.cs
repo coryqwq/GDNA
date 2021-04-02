@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pod153Controller : MonoBehaviour
 {
     public float spawnInterval = 0.05f;
-    public float bulletDamage = 2.0f;
+    public float projectileDamage = 20.0f;
 
     public GameObject podMovementReference;
     public GameObject projectilePrefab;
@@ -26,14 +26,16 @@ public class Pod153Controller : MonoBehaviour
     public void Start()
     {
         //assign animator to reference
-        podAnim = gameObject.GetComponent<Animator>();
+        podAnim = GetComponent<Animator>();
 
         //assign audio source to reference
-        audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
+        projectileDamage = Random.Range(50, 60);
+
         timer += Time.deltaTime;
 
         //fire pod153
@@ -44,15 +46,10 @@ public class Pod153Controller : MonoBehaviour
                 //trigger starting fire animation, play fire start audio clip
                 podAnim.SetBool("FireStart", true);
 
-                if(flag3 == false)
-                {
-                    audioSource.PlayOneShot(fireStartClip);
-                    flag3 = true;
-                }
-
-                if(flag4 == false)
+                if (podAnim.GetBool("Fired") == true && flag4 == false)
                 {
                     podAnim.SetBool("Firing", true);
+                    audioSource.PlayOneShot(fireStartClip);
                     flag4 = true;
                 }
 
@@ -63,36 +60,37 @@ public class Pod153Controller : MonoBehaviour
             //wait for firing animation, play audio clip, create projectile
             if (podAnim.GetCurrentAnimatorStateInfo(0).IsName("Pod153Firing"))
             {
-                if(flag2 == false)
+                if (flag2 == false)
                 {
                     //play firing audio clip
                     audioSource.PlayOneShot(firingClip);
                     podAnim.SetBool("FireStart", false);
                     podAnim.SetBool("Firing", false);
+
                     flag2 = true;
                 }
 
                 Instantiate(projectilePrefab, transform.position, podMovementReference.transform.rotation);
             }
-
             timer = 0;
         }
 
         if (!Input.GetMouseButton(1))
         {
             //trigger closing fire animation, reset flags and animation parameter values
-            if (flag1 == false)
-            {
-                podAnim.SetBool("FireStart", false);
-                podAnim.SetBool("Firing", false);
 
-                flag1 = true;
-                flag0 = false;
-            }
+            podAnim.SetBool("FireStart", false);
+            podAnim.SetBool("Firing", false);
+            podAnim.SetBool("Fired", true);
+
+            flag0 = false;
+
         }
 
         if (podAnim.GetCurrentAnimatorStateInfo(0).IsName("Pod153FireEnd"))
         {
+            podAnim.SetBool("Fired", false);
+
             flag2 = false;
             flag3 = false;
             flag4 = false;

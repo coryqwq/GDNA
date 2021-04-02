@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: c28c9e8cfb7789b4aa92b5d242ff6a22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -770506506610877482
+    second: virtuoustreaty_0
+  - first:
+      213: 8314534716773729837
+    second: virtuoustreaty_1
+  - first:
+      213: -8836142239950155082
+    second: virtuoustreaty_2
+  - first:
+      213: 1339365831464235508
+    second: virtuoustreaty_3
+  - first:
+      213: -285044888972759482
+    second: virtuoustreaty_4
+  - first:
+      213: -6689333327523862011
+    second: virtuoustreaty_5
+  - first:
+      213: -5115475918281882049
+    second: virtuoustreaty_6
+  - first:
+      213: -5559012206461099523
+    second: virtuoustreaty_7
+  - first:
+      213: 3775056296872011846
+    second: virtuoustreaty_8
+  - first:
+      213: -6071860750635032423
+    second: virtuoustreaty_9
+  - first:
+      213: -8373158919457993753
+    second: virtuoustreaty_10
+  - first:
+      213: 5359684893870055572
+    second: virtuoustreaty_11
+  - first:
+      213: -1190123923949050526
+    second: virtuoustreaty_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: virtuoustreaty_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbd4502a6c9e45f0800000000000000
+      internalID: -770506506610877482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 492
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2683f9c549236370800000000000000
+      internalID: 8314534716773729837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_2
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 492
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b252fad277bf5580800000000000000
+      internalID: -8836142239950155082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1b8b0a022669210800000000000000
+      internalID: 1339365831464235508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 369
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64eecb70f215b0cf0800000000000000
+      internalID: -285044888972759482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 369
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a22ccb7c6ba23a0800000000000000
+      internalID: -6689333327523862011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f364eb951cd2209b0800000000000000
+      internalID: -5115475918281882049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 246
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df163d3e9db6ad2b0800000000000000
+      internalID: -5559012206461099523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 246
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648682e63b1b36430800000000000000
+      internalID: 3775056296872011846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99023c041da6cbba0800000000000000
+      internalID: -6071860750635032423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 123
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb00dd53509ccb80800000000000000
+      internalID: -8373158919457993753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 123
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490e62f930d616a40800000000000000
+      internalID: 5359684893870055572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virtuoustreaty_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.365767, y: 0.4514046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265a252c894db7fe0800000000000000
+      internalID: -1190123923949050526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

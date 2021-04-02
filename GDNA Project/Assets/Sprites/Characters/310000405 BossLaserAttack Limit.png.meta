@@ -1,7 +1,124 @@
 fileFormatVersion: 2
-guid: ae5c66dc0368ba5429e0d10d79d9185c
+guid: 6e468792802760e4d9c32082a61227a7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2281769441729368459
+    second: 310000405 BossLaserAttack Limit_0
+  - first:
+      213: -8952230464011774151
+    second: 310000405 BossLaserAttack Limit_1
+  - first:
+      213: -2979507625593876515
+    second: 310000405 BossLaserAttack Limit_2
+  - first:
+      213: -4153656769744553167
+    second: 310000405 BossLaserAttack Limit_3
+  - first:
+      213: -8070830592862299203
+    second: 310000405 BossLaserAttack Limit_4
+  - first:
+      213: 7635174328712454183
+    second: 310000405 BossLaserAttack Limit_5
+  - first:
+      213: 9061749614467626806
+    second: 310000405 BossLaserAttack Limit_6
+  - first:
+      213: 388635961322402126
+    second: 310000405 BossLaserAttack Limit_7
+  - first:
+      213: 8923426361971136875
+    second: 310000405 BossLaserAttack Limit_8
+  - first:
+      213: 7659072491501814472
+    second: 310000405 BossLaserAttack Limit_9
+  - first:
+      213: -4958542316665087076
+    second: 310000405 BossLaserAttack Limit_10
+  - first:
+      213: -8390164388208208493
+    second: 310000405 BossLaserAttack Limit_11
+  - first:
+      213: 4189449629065666126
+    second: 310000405 BossLaserAttack Limit_12
+  - first:
+      213: 6643457789323896028
+    second: 310000405 BossLaserAttack Limit_13
+  - first:
+      213: 3030249468198168064
+    second: 310000405 BossLaserAttack Limit_14
+  - first:
+      213: 8881900484882386686
+    second: 310000405 BossLaserAttack Limit_15
+  - first:
+      213: 5473840152639911316
+    second: 310000405 BossLaserAttack Limit_16
+  - first:
+      213: -8428556903701614476
+    second: 310000405 BossLaserAttack Limit_17
+  - first:
+      213: -6687336155810300273
+    second: 310000405 BossLaserAttack Limit_18
+  - first:
+      213: 1316139426779129721
+    second: 310000405 BossLaserAttack Limit_19
+  - first:
+      213: 4395612831604988655
+    second: 310000405 BossLaserAttack Limit_20
+  - first:
+      213: 6700624722940286589
+    second: 310000405 BossLaserAttack Limit_21
+  - first:
+      213: -122921721375125583
+    second: 310000405 BossLaserAttack Limit_22
+  - first:
+      213: 5137474200951782484
+    second: 310000405 BossLaserAttack Limit_23
+  - first:
+      213: -3014402279499084931
+    second: 310000405 BossLaserAttack Limit_24
+  - first:
+      213: 7254912093467360972
+    second: 310000405 BossLaserAttack Limit_25
+  - first:
+      213: 5909628185929938687
+    second: 310000405 BossLaserAttack Limit_26
+  - first:
+      213: -8759761168751250138
+    second: 310000405 BossLaserAttack Limit_27
+  - first:
+      213: -8842371748587384035
+    second: 310000405 BossLaserAttack Limit_28
+  - first:
+      213: -4289426169806666431
+    second: 310000405 BossLaserAttack Limit_29
+  - first:
+      213: 2118905157670832117
+    second: 310000405 BossLaserAttack Limit_30
+  - first:
+      213: -6701739390158612775
+    second: 310000405 BossLaserAttack Limit_31
+  - first:
+      213: -8876919780135991334
+    second: 310000405 BossLaserAttack Limit_32
+  - first:
+      213: -4807093807611072688
+    second: 310000405 BossLaserAttack Limit_33
+  - first:
+      213: 1098597677330739992
+    second: 310000405 BossLaserAttack Limit_34
+  - first:
+      213: 8089934445520149223
+    second: 310000405 BossLaserAttack Limit_35
+  - first:
+      213: 6473925985636306008
+    second: 310000405 BossLaserAttack Limit_36
+  - first:
+      213: 3664928568041043696
+    second: 310000405 BossLaserAttack Limit_37
+  - first:
+      213: 4621892532308025326
+    second: 310000405 BossLaserAttack Limit_38
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +148,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +157,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -61,7 +178,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -73,7 +202,826 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_0
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3417
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81de99c7397aaf10800000000000000
+      internalID: 2281769441729368459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_1
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3417
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937d52de2d943c380800000000000000
+      internalID: -8952230464011774151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3216
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfc8e2c999a6a6d0800000000000000
+      internalID: -2979507625593876515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_3
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3216
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bba78cc2f3b56c0800000000000000
+      internalID: -4153656769744553167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_4
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3216
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb561e3656aeff80800000000000000
+      internalID: -8070830592862299203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_5
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2412
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720661d599695f960800000000000000
+      internalID: 7635174328712454183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2211
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63730ed534dc1cd70800000000000000
+      internalID: 9061749614467626806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2211
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4170950956b46500800000000000000
+      internalID: 388635961322402126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_8
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2211
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6955a47ff066db70800000000000000
+      internalID: 8923426361971136875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2010
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c28eecf9dd7a4a60800000000000000
+      internalID: 7659072491501814472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_10
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2010
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b5f63d808bf2bb0800000000000000
+      internalID: -4958542316665087076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_11
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2010
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39597b121f5209b80800000000000000
+      internalID: -8390164388208208493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1809
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ed9d0bd3ae32a30800000000000000
+      internalID: 4189449629065666126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_13
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1809
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4e3fc29ad423c50800000000000000
+      internalID: 6643457789323896028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_14
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1809
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006a4cc16db9d0a20800000000000000
+      internalID: 3030249468198168064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1608
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efec8c3ce69d24b70800000000000000
+      internalID: 8881900484882386686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_16
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1608
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4953f5ffd9cf6fb40800000000000000
+      internalID: 5473840152639911316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_17
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1608
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470f2b90720c70b80800000000000000
+      internalID: -8428556903701614476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1407
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8efc43823fc133a0800000000000000
+      internalID: -6687336155810300273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_19
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1407
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9776e00e5ddd34210800000000000000
+      internalID: 1316139426779129721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_20
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1407
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fead6f5d49a500d30800000000000000
+      internalID: 4395612831604988655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1206
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d765e002fa66dfc50800000000000000
+      internalID: 6700624722940286589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_22
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1206
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf814e785b4b4ef0800000000000000
+      internalID: -122921721375125583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_23
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1206
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cf676f099fb4740800000000000000
+      internalID: 5137474200951782484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1005
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b44580911ba26d0800000000000000
+      internalID: -3014402279499084931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_25
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1005
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccebecf5c10aea460800000000000000
+      internalID: 7254912093467360972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_26
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1005
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff67df84687330250800000000000000
+      internalID: 5909628185929938687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 804
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6253253d0a31f6680800000000000000
+      internalID: -8759761168751250138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_28
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 804
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13df795eb5994580800000000000000
+      internalID: -8842371748587384035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_29
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 804
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145c86aff95e874c0800000000000000
+      internalID: -4289426169806666431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 603
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f786b3b30dd76d10800000000000000
+      internalID: 2118905157670832117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_31
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 603
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d65a503883aef2a0800000000000000
+      internalID: -6701739390158612775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_32
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 603
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad70b5ded78dec480800000000000000
+      internalID: -8876919780135991334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fac5ba6a5c94db0800000000000000
+      internalID: -4807093807611072688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_34
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 402
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8133e5454c00f3f00800000000000000
+      internalID: 1098597677330739992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_35
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 402
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eadc611488354070800000000000000
+      internalID: 8089934445520149223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cc504326108d950800000000000000
+      internalID: 6473925985636306008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_37
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 201
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f674417d117cd230800000000000000
+      internalID: 3664928568041043696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000405 BossLaserAttack Limit_38
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 201
+        width: 1400
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef104235c2442040800000000000000
+      internalID: 4621892532308025326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

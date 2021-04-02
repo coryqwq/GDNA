@@ -4,26 +4,25 @@ using UnityEngine;
 
 public class FadeOutBGM : MonoBehaviour
 {
+    AudioSource BGM;
+    float currentTime = 0;
+    public float duration = 0.8f;
+    public bool fade = false;
     public void FadeOut()
     {
-        StartCoroutine(StartFade());
+        BGM = gameObject.GetComponent<AudioSource>();
+        fade = true;
     }
 
-    IEnumerator StartFade()
+    public void Update()
     {
-        AudioSource audio = gameObject.GetComponent<AudioSource>();
-
-        float start = audio.volume;
-        float currentTime = 0;
-        float duration = 0.8f;
-
-        while (currentTime < duration)
+        if (fade == true)
         {
-            currentTime += Time.deltaTime;
-            audio.volume = Mathf.Lerp(start, 0f, currentTime / duration);
-            yield return null;
+            if (currentTime < duration)
+            {
+                currentTime += Time.deltaTime;
+                BGM.volume = Mathf.Lerp(1.0f, 0.0f, currentTime / duration);
+            }
         }
-        yield break;
     }
-
 }

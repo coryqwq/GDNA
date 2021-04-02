@@ -6,6 +6,9 @@ using UnityEngine.EventSystems;
 public class SceneTransition : MonoBehaviour
 {
     public GameObject mainCamera;
+    FadeOutBGM fadeOutBGMScript;
+
+    public AudioClip[] clip;
 
     public Canvas[] menu;
     public GameObject[] firstButton;
@@ -15,6 +18,7 @@ public class SceneTransition : MonoBehaviour
     public bool startMenuEnabled = false;
     public bool difficultyMenuEnabled = false;
     public bool controlsMenuEnabled = false;
+    public bool retryMenuEnabled = false;
 
     public Animator startMenuAnim;
 
@@ -22,11 +26,22 @@ public class SceneTransition : MonoBehaviour
     public GameObject loadingScreenVideo;
     public float transitionTime = 1f;
     public float fadeTime = 0.25f;
+
+    public GameObject pause;
+    private void Start()
+    {
+        fadeOutBGMScript = mainCamera.GetComponent<FadeOutBGM>();
+    }
+
     public void TitleMenu()
     {
         StartCoroutine(TitleMenuTransition());
         menu[0].gameObject.transform.GetChild(0).GetComponent<CanvasGroup>().blocksRaycasts = false;
-
+    }
+    public void EndTitleMenu()
+    {
+        StartCoroutine(EndTitleMenuTransition());
+        menu[0].gameObject.transform.GetChild(0).GetComponent<CanvasGroup>().blocksRaycasts = false;
     }
 
     public void StartMenu()
@@ -49,7 +64,7 @@ public class SceneTransition : MonoBehaviour
             menu[1].gameObject.transform.GetChild(0).GetComponent<CanvasGroup>().blocksRaycasts = startMenuEnabled;
 
             //play start menu opening sound
-            gameObject.GetComponent<AudioSource>().Play();
+            gameObject.GetComponent<AudioSource>().PlayOneShot(clip[0]);
             //start opening animation of start menu
             startMenuAnim.SetBool("Enabled", startMenuEnabled);
         }
@@ -81,10 +96,24 @@ public class SceneTransition : MonoBehaviour
         }
     }
 
-    IEnumerator DelayMenuTransition(int menuIndex, bool enabled)
+    public IEnumerator DelayMenuTransition(int menuIndex, bool enabled)
     {
         yield return new WaitForSeconds(0.25f);
         menu[menuIndex].gameObject.SetActive(enabled);
+
+    }
+
+    public IEnumerator DelayRetryMenuTransition(int menuIndex, bool enabled)
+    {
+        yield return new WaitForSeconds(fadeTime * 6);
+        menu[menuIndex].gameObject.SetActive(enabled);
+        startMenuAnim.SetBool("Enabled", true);
+        menu[0].gameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        menu[0].gameObject.transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.SetActive(true);
+
+        gameObject.GetComponent<AudioSource>().PlayOneShot(clip[0]);
+        gameObject.GetComponent<AudioSource>().PlayOneShot(clip[1]);
+        gameObject.GetComponent<AudioSource>().PlayOneShot(clip[2]);
 
     }
 
@@ -170,6 +199,28 @@ public class SceneTransition : MonoBehaviour
         }
     }
 
+    public void RetryMenu()
+    {
+        if (retryMenuEnabled == false)
+        {
+            retryMenuEnabled = true;
+            firstButton[1].SetActive(false);
+
+            fadeOutBGMScript.FadeOut();
+
+            StartCoroutine(DelayRetryMenuTransition(0, true));
+
+            EventSystem.current.GetComponent<EventSystem>().SetSelectedGameObject(firstButton[0]);
+
+            pause.SetActive(false);
+
+            menu[0].gameObject.transform.GetChild(0).GetComponent<CanvasGroup>().blocksRaycasts = true;
+            menu[1].gameObject.transform.GetChild(1).GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+            
+        }
+    }
+
     public void StartLevel()
     {
         StartCoroutine(DelayMenuTransition(1, false));
@@ -180,7 +231,7 @@ public class SceneTransition : MonoBehaviour
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        StartCoroutine(RestartLevelTransition());
     }
 
     public void Quit()
@@ -193,13 +244,17 @@ public class SceneTransition : MonoBehaviour
         mainCamera.GetComponent<FadeOutBGM>().FadeOut();
 
         transition.SetTrigger("FadeIn");
-        yield return new WaitForSeconds(fadeTime);
-        loadingScreenVideo.SetActive(true);
-        yield return new WaitForSeconds(fadeTime - (fadeTime * 0.5f));
-        transition.SetTrigger("FadeOut");
         yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene("TitleScene");
+    }
+
+    IEnumerator EndTitleMenuTransition()
+    {
+
+        yield return new WaitForSeconds(fadeTime);
         transition.SetTrigger("FadeIn");
-        yield return new WaitForSeconds(fadeTime * 2);
+        yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene("TitleScene");
     }
@@ -218,6 +273,16 @@ public class SceneTransition : MonoBehaviour
         yield return new WaitForSeconds(fadeTime * 2);
 
         SceneManager.LoadScene("LevelScene");
+    }
+
+    IEnumerator RestartLevelTransition()
+    {
+        mainCamera.GetComponent<FadeOutBGM>().FadeOut();
+
+        transition.SetTrigger("FadeIn");
+        yield return new WaitForSeconds(fadeTime);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     IEnumerator QuitTransition()

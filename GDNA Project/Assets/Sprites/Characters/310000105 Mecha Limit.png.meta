@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: cec482faf0342e34a8c61d343bc71bca
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8762979315510161058
+    second: 310000105 Mecha Limit_0
+  - first:
+      213: -36249732100507616
+    second: 310000105 Mecha Limit_1
+  - first:
+      213: -3690792631252934566
+    second: 310000105 Mecha Limit_2
+  - first:
+      213: 161143348447416041
+    second: 310000105 Mecha Limit_3
+  - first:
+      213: -3670525319020248981
+    second: 310000105 Mecha Limit_4
+  - first:
+      213: -1467811277883194873
+    second: 310000105 Mecha Limit_5
+  - first:
+      213: 114666013856186053
+    second: 310000105 Mecha Limit_6
+  - first:
+      213: -1096839014642239553
+    second: 310000105 Mecha Limit_7
+  - first:
+      213: -1486831836961393907
+    second: 310000105 Mecha Limit_8
+  - first:
+      213: 3890830991369143072
+    second: 310000105 Mecha Limit_9
+  - first:
+      213: 3011735975921129435
+    second: 310000105 Mecha Limit_10
+  - first:
+      213: 5769604124211465589
+    second: 310000105 Mecha Limit_11
+  - first:
+      213: -8140230462942935022
+    second: 310000105 Mecha Limit_12
+  - first:
+      213: 8228492264114239131
+    second: 310000105 Mecha Limit_13
+  - first:
+      213: -587119315833703664
+    second: 310000105 Mecha Limit_14
+  - first:
+      213: 2670107259904874922
+    second: 310000105 Mecha Limit_15
+  - first:
+      213: -7109764421752381415
+    second: 310000105 Mecha Limit_16
+  - first:
+      213: -595649218780155638
+    second: 310000105 Mecha Limit_17
+  - first:
+      213: 7119551257880754618
+    second: 310000105 Mecha Limit_18
+  - first:
+      213: 4531165031078472223
+    second: 310000105 Mecha Limit_19
+  - first:
+      213: -7819723721192344177
+    second: 310000105 Mecha Limit_20
+  - first:
+      213: 8514798377873769219
+    second: 310000105 Mecha Limit_21
+  - first:
+      213: -8673793455637305322
+    second: 310000105 Mecha Limit_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +100,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +109,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -61,7 +130,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -73,7 +154,490 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1865
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51dbe4adb4a36680800000000000000
+      internalID: -8762979315510161058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_1
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1865
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02832fa8f073f7ff0800000000000000
+      internalID: -36249732100507616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_2
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1865
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a502a8218aba7ccc0800000000000000
+      internalID: -3690792631252934566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_3
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1865
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee002a850f7c3200800000000000000
+      internalID: 161143348447416041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1492
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6088bc6bacaf0dc0800000000000000
+      internalID: -3670525319020248981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1492
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702c5786b6941abe0800000000000000
+      internalID: -1467811277883194873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_6
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1492
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce35bfc120679100800000000000000
+      internalID: 114666013856186053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_7
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1492
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7b57c3abe37c0f0800000000000000
+      internalID: -1096839014642239553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1119
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03bc256256bd5be0800000000000000
+      internalID: -1486831836961393907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_9
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1119
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02383a11c220ff530800000000000000
+      internalID: 3890830991369143072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_10
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1119
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd71b0ac9e5dbc920800000000000000
+      internalID: 3011735975921129435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_11
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1119
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dc04ed160c11050800000000000000
+      internalID: 5769604124211465589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2180972d587180f80800000000000000
+      internalID: -8140230462942935022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_13
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 746
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9634972e1a713270800000000000000
+      internalID: 8228492264114239131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_14
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 746
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01336fac7122ad7f0800000000000000
+      internalID: -587119315833703664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_15
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 746
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa952d2f7602e0520800000000000000
+      internalID: 2670107259904874922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 373
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9102db47dea055d90800000000000000
+      internalID: -7109764421752381415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_17
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 373
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01bedff034dbb7f0800000000000000
+      internalID: -595649218780155638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_18
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 373
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9fa26e52abdc260800000000000000
+      internalID: 7119551257880754618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_19
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 373
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1aaa10b69ee1ee30800000000000000
+      internalID: 4531165031078472223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8572acc4b2ca7390800000000000000
+      internalID: -7819723721192344177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_21
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3030d37e204aa2670800000000000000
+      internalID: 8514798377873769219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000105 Mecha Limit_22
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 0
+        width: 559
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61861adcece70a780800000000000000
+      internalID: -8673793455637305322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

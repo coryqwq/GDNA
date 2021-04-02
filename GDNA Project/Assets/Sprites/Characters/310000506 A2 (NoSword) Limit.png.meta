@@ -1,7 +1,145 @@
 fileFormatVersion: 2
 guid: 1c57dcaee53c51f4bbcc9888618c0d53
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7181041990909670377
+    second: 310000506 A2 (NoSword) Limit_0
+  - first:
+      213: 4529430139875831484
+    second: 310000506 A2 (NoSword) Limit_1
+  - first:
+      213: -8387076864579247129
+    second: 310000506 A2 (NoSword) Limit_2
+  - first:
+      213: 2927012571263941309
+    second: 310000506 A2 (NoSword) Limit_3
+  - first:
+      213: 8994530413132598602
+    second: 310000506 A2 (NoSword) Limit_4
+  - first:
+      213: -2830449601183355204
+    second: 310000506 A2 (NoSword) Limit_5
+  - first:
+      213: -4304767919422046438
+    second: 310000506 A2 (NoSword) Limit_6
+  - first:
+      213: -6705584131005667494
+    second: 310000506 A2 (NoSword) Limit_7
+  - first:
+      213: -1303177943999174106
+    second: 310000506 A2 (NoSword) Limit_8
+  - first:
+      213: 3444769437120999562
+    second: 310000506 A2 (NoSword) Limit_9
+  - first:
+      213: 831552782733971002
+    second: 310000506 A2 (NoSword) Limit_10
+  - first:
+      213: 3234162964715487197
+    second: 310000506 A2 (NoSword) Limit_11
+  - first:
+      213: 5237778866476306667
+    second: 310000506 A2 (NoSword) Limit_12
+  - first:
+      213: 4818309496545342676
+    second: 310000506 A2 (NoSword) Limit_13
+  - first:
+      213: 7180066401612432038
+    second: 310000506 A2 (NoSword) Limit_14
+  - first:
+      213: -161214731826806736
+    second: 310000506 A2 (NoSword) Limit_15
+  - first:
+      213: -7550953758588600851
+    second: 310000506 A2 (NoSword) Limit_16
+  - first:
+      213: -7436222324199207640
+    second: 310000506 A2 (NoSword) Limit_17
+  - first:
+      213: 7136559772010578405
+    second: 310000506 A2 (NoSword) Limit_18
+  - first:
+      213: 4691368035243410578
+    second: 310000506 A2 (NoSword) Limit_19
+  - first:
+      213: -3898885433423170591
+    second: 310000506 A2 (NoSword) Limit_20
+  - first:
+      213: -7827358211658226812
+    second: 310000506 A2 (NoSword) Limit_21
+  - first:
+      213: 6228802803578992519
+    second: 310000506 A2 (NoSword) Limit_22
+  - first:
+      213: -9049126579107434320
+    second: 310000506 A2 (NoSword) Limit_23
+  - first:
+      213: -7010384580544540369
+    second: 310000506 A2 (NoSword) Limit_24
+  - first:
+      213: -1757940527842400943
+    second: 310000506 A2 (NoSword) Limit_25
+  - first:
+      213: -3707943900552910690
+    second: 310000506 A2 (NoSword) Limit_26
+  - first:
+      213: -7694745727008060906
+    second: 310000506 A2 (NoSword) Limit_27
+  - first:
+      213: 3044253214884924200
+    second: 310000506 A2 (NoSword) Limit_28
+  - first:
+      213: 6775942023173335350
+    second: 310000506 A2 (NoSword) Limit_29
+  - first:
+      213: -8370305173931649580
+    second: 310000506 A2 (NoSword) Limit_30
+  - first:
+      213: 3254343814964788048
+    second: 310000506 A2 (NoSword) Limit_31
+  - first:
+      213: -3302399930079498797
+    second: 310000506 A2 (NoSword) Limit_32
+  - first:
+      213: 5267537435173820962
+    second: 310000506 A2 (NoSword) Limit_33
+  - first:
+      213: 2407701411874003168
+    second: 310000506 A2 (NoSword) Limit_34
+  - first:
+      213: -4061697026465709580
+    second: 310000506 A2 (NoSword) Limit_35
+  - first:
+      213: 1279570775514519479
+    second: 310000506 A2 (NoSword) Limit_36
+  - first:
+      213: -3225791392603364859
+    second: 310000506 A2 (NoSword) Limit_37
+  - first:
+      213: -6111342459247266240
+    second: 310000506 A2 (NoSword) Limit_38
+  - first:
+      213: 875845158226966597
+    second: 310000506 A2 (NoSword) Limit_39
+  - first:
+      213: -3923868474584200120
+    second: 310000506 A2 (NoSword) Limit_40
+  - first:
+      213: 3279607625310788544
+    second: 310000506 A2 (NoSword) Limit_41
+  - first:
+      213: -3066928707754529775
+    second: 310000506 A2 (NoSword) Limit_42
+  - first:
+      213: 7442204325530388768
+    second: 310000506 A2 (NoSword) Limit_43
+  - first:
+      213: 5134471920256852032
+    second: 310000506 A2 (NoSword) Limit_44
+  - first:
+      213: -4424816859655934911
+    second: 310000506 A2 (NoSword) Limit_45
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +169,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +178,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -61,7 +199,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -73,7 +223,973 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c4aa62b50d75c90800000000000000
+      internalID: -7181041990909670377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1148
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe2f3ad6b4cbde30800000000000000
+      internalID: 4529430139875831484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1148
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e36bde370e1b9b80800000000000000
+      internalID: -8387076864579247129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_3
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1148
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba3a43fc66de9820800000000000000
+      internalID: 2927012571263941309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_4
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1148
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d473471cdf2dc70800000000000000
+      internalID: 8994530413132598602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_5
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1148
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbee1d6851938b8d0800000000000000
+      internalID: -2830449601183355204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 984
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff95a82646244c0800000000000000
+      internalID: -4304767919422046438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 984
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5729e3b2caf0f2a0800000000000000
+      internalID: -6705584131005667494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 984
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a2ec0809e2aede0800000000000000
+      internalID: -1303177943999174106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 984
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8038b84d874ecf20800000000000000
+      internalID: 3444769437120999562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_10
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 984
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e88d2a9d44a8b00800000000000000
+      internalID: 831552782733971002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_11
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 984
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf3791c41e02ec20800000000000000
+      internalID: 3234162964715487197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be05e5cc02450b840800000000000000
+      internalID: 5237778866476306667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 820
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4f97765f21ed240800000000000000
+      internalID: 4818309496545342676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_14
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 820
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a283d3c958b4a360800000000000000
+      internalID: 7180066401612432038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_15
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 820
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03047e83e0043cdf0800000000000000
+      internalID: -161214731826806736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_16
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 820
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedfcef209f953790800000000000000
+      internalID: -7550953758588600851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_17
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 820
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dc647e13b3dc890800000000000000
+      internalID: -7436222324199207640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e188013d472a0360800000000000000
+      internalID: 7136559772010578405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 656
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2944e434f561b1140800000000000000
+      internalID: 4691368035243410578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_20
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 656
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3fdd00b5064e9c0800000000000000
+      internalID: -3898885433423170591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_21
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 656
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483ef587d23af5390800000000000000
+      internalID: -7827358211658226812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_22
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 656
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7877843f527217650800000000000000
+      internalID: 6228802803578992519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_23
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 656
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b071c4125b0b6280800000000000000
+      internalID: -9049126579107434320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2154c9dd5c16be90800000000000000
+      internalID: -7010384580544540369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_25
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155e0b5676a8a97e0800000000000000
+      internalID: -1757940527842400943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_26
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98a7700bacba8cc0800000000000000
+      internalID: -3707943900552910690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_27
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61acab0a785c63590800000000000000
+      internalID: -7694745727008060906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_28
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b8e877b2c5f3a20800000000000000
+      internalID: 3044253214884924200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_29
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63963ed9e5bf80e50800000000000000
+      internalID: 6775942023173335350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d59036cac3b6db80800000000000000
+      internalID: -8370305173931649580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_31
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b37fb1570c92d20800000000000000
+      internalID: 3254343814964788048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_32
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd265da2c48b22d0800000000000000
+      internalID: -3302399930079498797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_33
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a9b90836d0a1940800000000000000
+      internalID: 5267537435173820962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_34
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8d4f37dafd96120800000000000000
+      internalID: 2407701411874003168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_35
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f140400314f1a7c0800000000000000
+      internalID: -4061697026465709580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7938347d2f1c110800000000000000
+      internalID: 1279570775514519479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_37
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5022d54c1dfab33d0800000000000000
+      internalID: -3225791392603364859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_38
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046fdcf9966203ba0800000000000000
+      internalID: -6111342459247266240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_39
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5483d5ee780a72c00800000000000000
+      internalID: 875845158226966597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_40
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c0e03796e9b89c0800000000000000
+      internalID: -3923868474584200120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_41
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbdf4552c1838d20800000000000000
+      internalID: 3279607625310788544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ce7dee6941075d0800000000000000
+      internalID: -3066928707754529775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_43
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0294d115765084760800000000000000
+      internalID: 7442204325530388768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_44
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040a024020f414740800000000000000
+      internalID: 5134471920256852032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 310000506 A2 (NoSword) Limit_45
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 0
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c6c048284e792c0800000000000000
+      internalID: -4424816859655934911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

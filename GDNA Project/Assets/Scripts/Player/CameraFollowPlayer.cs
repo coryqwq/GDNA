@@ -9,6 +9,10 @@ public class CameraFollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.Scale(player.transform.position, new Vector3(0.4f,0.4f,0)) + new Vector3(0,0,-10);    
+        if(player != null)
+        {
+            transform.position = (Vector3.Scale(player.transform.position, new Vector3(0.15f, 0.15f, 0)) + new Vector3(0, 0, -10));
+
+        }
     }
 }

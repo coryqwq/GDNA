@@ -15,7 +15,7 @@ public class ScrollBackground : MonoBehaviour
         //spawn the background at reset position
         if (transform.position.y <= 0 && spawned == false)
         {
-            Instantiate(background, new Vector3(1.6f, 56.9f, 5), transform.rotation);
+            Instantiate(background, new Vector3(1.8f, 56.9f, 8), transform.rotation);
             spawned = true;
         }
 

@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: e79d83a861615bb4d847eddf08585a42
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7204366767202834300
+    second: 401001205 Bomb Limit_0
+  - first:
+      213: 8496307335268195150
+    second: 401001205 Bomb Limit_1
+  - first:
+      213: 3871479544136460588
+    second: 401001205 Bomb Limit_2
+  - first:
+      213: -5293954094014958414
+    second: 401001205 Bomb Limit_3
+  - first:
+      213: -2780997058275717255
+    second: 401001205 Bomb Limit_4
+  - first:
+      213: 2498520531041027933
+    second: 401001205 Bomb Limit_5
+  - first:
+      213: -1291482299502075934
+    second: 401001205 Bomb Limit_6
+  - first:
+      213: 1924808493647219601
+    second: 401001205 Bomb Limit_7
+  - first:
+      213: 3229991283487193740
+    second: 401001205 Bomb Limit_8
+  - first:
+      213: -2651842866996630174
+    second: 401001205 Bomb Limit_9
+  - first:
+      213: 1972503035365125231
+    second: 401001205 Bomb Limit_10
+  - first:
+      213: 301882730328463438
+    second: 401001205 Bomb Limit_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -61,7 +97,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -73,7 +121,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7711c6876d0bf360800000000000000
+      internalID: 7204366767202834300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bd43d8182f8e570800000000000000
+      internalID: 8496307335268195150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 492
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29e17722224ab530800000000000000
+      internalID: 3871479544136460588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b47301dcc81886b0800000000000000
+      internalID: -5293954094014958414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fc11ce8e9e769d0800000000000000
+      internalID: -2780997058275717255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_5
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 328
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5788bc6f278ca220800000000000000
+      internalID: 2498520531041027933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef5970f0bbb31ee0800000000000000
+      internalID: -1291482299502075934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b4f7c702b46ba10800000000000000
+      internalID: 1924808493647219601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 164
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8abcd785fb33dc20800000000000000
+      internalID: 3229991283487193740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d238866f2c23bd0800000000000000
+      internalID: -2651842866996630174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c61555f0dbf5b10800000000000000
+      internalID: 1972503035365125231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 401001205 Bomb Limit_11
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 223
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e489d096eb0803400800000000000000
+      internalID: 301882730328463438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

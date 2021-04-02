@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - EnemyProjectile
+  - PlayerBlast
+  - Enemy
+  - Bounds
+  - Quad1
+  - Quad2
+  - Quad3
+  - Quad4
+  - PlayerProjectileBullet
+  - PlayerProjectileLaser
+  - PlayerSword
+  - GameState
   layers:
   - Default
   - TransparentFX
@@ -40,4 +52,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3826393733
     locked: 0

@@ -8,7 +8,7 @@ public class Pod042Controller : MonoBehaviour
 
     public GameObject projectilePrefab;
     public float spawnInterval = 0.05f;
-    public float bulletDamage = 2.0f;
+    public float projectileDamage = 2.0f;
 
     private Animator podAnim;
     private AudioSource audioSource;
@@ -18,7 +18,6 @@ public class Pod042Controller : MonoBehaviour
     private float timer1 = 0;
     public bool flag0 = false;
     public bool flag1 = false;
-
     public void Start()
     {
         //assign animator to reference
@@ -31,6 +30,7 @@ public class Pod042Controller : MonoBehaviour
 
     void Update()
     {
+        projectileDamage = Random.Range(10, 14);
         timer += Time.deltaTime;
         timer1 = Time.deltaTime;
 
