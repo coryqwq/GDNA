@@ -244,7 +244,7 @@ public class SceneTransition : MonoBehaviour
         mainCamera.GetComponent<FadeOutBGM>().FadeOut();
 
         transition.SetTrigger("FadeIn");
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(transitionTime - 2);
 
         SceneManager.LoadScene("TitleScene");
     }

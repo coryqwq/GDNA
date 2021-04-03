@@ -18,11 +18,13 @@ ScriptsOnlyBuild:
     - FollowPoint
     - GameState
     - MoveBullet
+    - MoveDamagePopup
     - Pause
     - PlayerController
     - PlayerStatus
     - Pod042Controller
     - Pod153Controller
+    - ProjectilePlayerSeek
     - RotateToMouse
     - SceneTransition
     - Score
@@ -42,6 +44,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -111,69 +114,77 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11488}
     - Class: 114
-      Script: {instanceID: 11582}
+      Script: {instanceID: 11584}
     - Class: 114
-      Script: {instanceID: 11636}
-    - Class: 114
-      Script: {instanceID: 11746}
+      Script: {instanceID: 11638}
     - Class: 114
       Script: {instanceID: 11748}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 11990}
     - Class: 114
-      Script: {instanceID: 12234}
+      Script: {instanceID: 12122}
     - Class: 114
-      Script: {instanceID: 12242}
+      Script: {instanceID: 12236}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 12244}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12284}
     - Class: 114
-      Script: {instanceID: 12416}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 12704}
+      Script: {instanceID: 12322}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 12838}
+      Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 13030}
+      Script: {instanceID: 12798}
     - Class: 114
-      Script: {instanceID: 13104}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 13148}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13152}
+      Script: {instanceID: 13036}
     - Class: 114
-      Script: {instanceID: 13326}
+      Script: {instanceID: 13110}
     - Class: 114
-      Script: {instanceID: 13592}
+      Script: {instanceID: 13154}
     - Class: 114
-      Script: {instanceID: 13612}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13742}
+      Script: {instanceID: 13332}
     - Class: 114
-      Script: {instanceID: 13806}
+      Script: {instanceID: 13388}
     - Class: 114
-      Script: {instanceID: 13952}
+      Script: {instanceID: 13418}
     - Class: 114
-      Script: {instanceID: 14352}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 14362}
+      Script: {instanceID: 13620}
     - Class: 114
-      Script: {instanceID: 14372}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 14424}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 61692}
+      Script: {instanceID: 13960}
     - Class: 114
-      Script: {instanceID: 61708}
+      Script: {instanceID: 14102}
     - Class: 114
-      Script: {instanceID: 154210}
+      Script: {instanceID: 14110}
+    - Class: 114
+      Script: {instanceID: 14260}
+    - Class: 114
+      Script: {instanceID: 14366}
+    - Class: 114
+      Script: {instanceID: 14376}
+    - Class: 114
+      Script: {instanceID: 14386}
+    - Class: 114
+      Script: {instanceID: 14438}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -244,37 +255,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11292}
     - Class: 114
-      Script: {instanceID: 11582}
+      Script: {instanceID: 11584}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11638}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12322}
     - Class: 114
-      Script: {instanceID: 12370}
+      Script: {instanceID: 12374}
     - Class: 114
-      Script: {instanceID: 12704}
+      Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12798}
     - Class: 114
-      Script: {instanceID: 13030}
+      Script: {instanceID: 13036}
     - Class: 114
-      Script: {instanceID: 13382}
+      Script: {instanceID: 13388}
     - Class: 114
-      Script: {instanceID: 13400}
+      Script: {instanceID: 13406}
     - Class: 114
-      Script: {instanceID: 13806}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 14086}
+      Script: {instanceID: 14096}
     - Class: 114
-      Script: {instanceID: 14352}
+      Script: {instanceID: 14366}
     - Class: 114
-      Script: {instanceID: 14424}
+      Script: {instanceID: 14438}
     - Class: 114
-      Script: {instanceID: 14430}
+      Script: {instanceID: 14444}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -338,7 +349,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: cf9428514730023491343badc3d1e279
+      Hash: fa1ce9f4ed1cd219eeca62f3e208d848
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyHealth
@@ -410,7 +421,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 5d064456c40f7c34690dc0c9d079accc
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoveBullet
@@ -458,7 +469,7 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
-      Hash: 5d53b7e1d1f989b14f986c141af6ce39
+      Hash: ba45c86ec500411a7795b6904683b4fa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonFX
@@ -542,7 +553,13 @@ ScriptsOnlyBuild:
     className: RotateToMouse
   - hash:
       serializedVersion: 2
-      Hash: 1f71ac687ba2073494605351ef33d5c2
+      Hash: cc134f3a76bf7d3d44431fbd2a86f077
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProjectilePlayerSeek
+  - hash:
+      serializedVersion: 2
+      Hash: 4a1b7fc8f3a318dc68f6ef97e913f45b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameState
@@ -596,7 +613,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 44551cb8c61213cc1aa996e2cf77eded
+      Hash: be8fae72c46df2948d4723b3832fc711
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyStatus
@@ -632,7 +649,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: f96ba6e2d41ac31d7f6a9b5a36fc3b9a
+      Hash: 115b452c19a3b7aa9088c40186858200
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneTransition
@@ -654,6 +671,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 3a773f30081c151b50a685262b21b63a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DialogueManager
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -686,7 +709,7 @@ ScriptsOnlyBuild:
     className: ExpandBlast
   - hash:
       serializedVersion: 2
-      Hash: b921b5e76a9512ae7e1dc09f34671677
+      Hash: 0e611e97b33e23ec2b13ce17b76e0ea3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyFire
@@ -752,13 +775,19 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 426bdee8eca8cbe5d4cd71749b648fe4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pause
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 6c7a353efcbc57f71ad4e2cba1f4a98b
+      Hash: b9c7180eba63dd3b58ab3352bba813e3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyController
@@ -800,10 +829,16 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 966f9c807b410ab5105858f20f2e0762
+      Hash: c3d6d6e5b890bf6ede216de4672328ee
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Score
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DamagePopup
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -816,6 +851,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 6df5876f69c71da60e4084a377e0e023
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveDamagePopup
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab9b54fc7f799223997ed17b914f63e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DialogueTrigger
   - hash:
       serializedVersion: 2
       Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
@@ -860,7 +907,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 84bdbfa8a4c5f58f02608694906f7550
+      Hash: 3d3251c49d05d5cf16a28b7aa3f980bb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerStatus
@@ -930,27 +977,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 18555ceb568860b39d1449a790ad836c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DialogueManager
-  - hash:
-      serializedVersion: 2
-      Hash: 27d3ae8de5ffbe19f3d2222860a0e904
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DialogueTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: ffb88a5b69986916e8af2babb9814e00
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Pause
   platform: 5
   scenePathNames:
   - Assets/Scenes/TitleScene.unity
   - Assets/Scenes/LevelScene.unity
-  playerPath: C:/Users/ctran/Desktop/unity projects/gdna_v1/God of the Machinery
+  playerPath: C:/Users/ctran/Desktop/unity projects/gdna_beta/God of the Machinery
     NieR Alternative.exe

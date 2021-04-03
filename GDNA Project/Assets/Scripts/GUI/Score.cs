@@ -14,6 +14,8 @@ public class Score : MonoBehaviour
     public int scoreCount = 0;
     public int temp = 0;
     public int count = 100;
+    public int count1 = 100;
+
 
     PlayerStatus playerStatusScript;
     GameState gameStateScript;
@@ -42,8 +44,13 @@ public class Score : MonoBehaviour
             time.text = "Time:" + timer;
         }
 
-        
-        if(temp > count && scoreCount < scoreNumber - count*2)
+        if (temp > count1 && scoreCount < scoreNumber - count1 * 2)
+        {
+            score.text = "Score:" + scoreCount;
+            scoreCount += count1;
+        }
+
+        if (temp > count && scoreCount < scoreNumber - count*2)
         {
             score.text = "Score:" + scoreCount;
             scoreCount += count;

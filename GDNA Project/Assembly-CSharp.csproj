@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyFire.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyStatus.cs" />
+    <Compile Include="Assets\Scripts\Enemy\ProjectilePlayerSeek.cs" />
     <Compile Include="Assets\Scripts\Environment\FadeOutBGM.cs" />
     <Compile Include="Assets\Scripts\Environment\GameState.cs" />
     <Compile Include="Assets\Scripts\Environment\ScrollBackground.cs" />

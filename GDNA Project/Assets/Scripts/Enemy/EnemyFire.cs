@@ -13,6 +13,7 @@ public class EnemyFire : MonoBehaviour
     public bool[] phase = new bool[3] { false, false, false };
     public GameObject[] bulletType;
     public GameObject laser;
+    public GameObject[] seeker;
     public float fireBulletWedgeInterval = 0.2f;
     public float fireBulletOmniInterval = 0.5f;
     public float fireLaserDuration = 1.0f;
@@ -23,7 +24,7 @@ public class EnemyFire : MonoBehaviour
 
     public bool flag = false;
     public float timer = 0;
-
+    public int i = 0;
     private void Start()
     {
         enemyStatusScript = enemyCollider.GetComponent<EnemyStatus>();
@@ -47,7 +48,7 @@ public class EnemyFire : MonoBehaviour
         //spawn some number (3 to 6) of projectiles at the angle apart
         for (int i = 0; i < Random.Range(3, 7); i++)
         {
-            Instantiate(bulletType[Random.Range(0,2)], gun[0].transform.position, gun[0].transform.rotation * Quaternion.AngleAxis(angle, Vector3.forward));
+            Instantiate(bulletType[Random.Range(0, 2)], gun[0].transform.position, gun[0].transform.rotation * Quaternion.AngleAxis(angle, Vector3.forward));
             Instantiate(bulletType[Random.Range(0, 2)], gun[1].transform.position, gun[1].transform.rotation * Quaternion.AngleAxis(-angle, Vector3.forward));
             angle += angleIncrement;
         }
@@ -78,16 +79,19 @@ public class EnemyFire : MonoBehaviour
 
     public void FireLaser()
     {
-        GetComponent<AudioSource>().PlayOneShot(clip[1]);
-
         Instantiate(laser, transform.position + new Vector3(Random.Range(-3, 3), -5.3f, -0.1f), laser.transform.rotation);
+    }
+
+    public void FireSeeker(int i)
+    {
+        Instantiate(seeker[i], transform.position + new Vector3(0 ,0.5f, -0.5f), transform.rotation);
     }
 
     private void Update()
     {
-        if(enemyStatusScript.isAlive == false)
+        if (enemyStatusScript.isAlive == false)
         {
-            for(int i = 0; i < phase.Length; i++)
+            for (int i = 0; i < phase.Length; i++)
             {
                 phase[i] = false;
             }
@@ -153,7 +157,7 @@ public class EnemyFire : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            if(timer <= fireLaserDuration)
+            if (timer <= fireLaserDuration)
             {
                 if (flag == false)
                 {
@@ -168,6 +172,24 @@ public class EnemyFire : MonoBehaviour
                 phase[2] = false;
             }
         }
-    }
 
+        if (phase[3] == true)
+        {
+            timer += Time.deltaTime;
+
+            if (timer > 0.1f && i < 5)
+            {
+                FireSeeker(i);
+                i++;
+                timer = 0;
+            }
+
+            if (i == 5)
+            {
+                timer = 0;
+                i = 0;
+                phase[3] = false;
+            }
+        }
+    }
 }

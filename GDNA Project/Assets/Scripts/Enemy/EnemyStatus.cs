@@ -74,7 +74,7 @@ public class EnemyStatus : MonoBehaviour
                                                                 , enemyHealthScript.healthBar.sizeDelta.y);
 
             scoreScript.temp = (int)(pod042ControllerScript.projectileDamage * gameStateScript.scoreMultiplier);
-            scoreScript.scoreNumber += (int)pod042ControllerScript.projectileDamage;
+            scoreScript.scoreNumber += (int)(pod042ControllerScript.projectileDamage * gameStateScript.scoreMultiplier);
 
             takingDamage = true;
             StartCoroutine(DelayRecolor());

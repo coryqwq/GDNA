@@ -33,7 +33,9 @@ public class GameState : MonoBehaviour
     public bool levelPause = false;
     public bool levelEnd = false;
     public bool levelComplete = false;
+    public bool levelStart = true;
 
+    public Animator startLevelAnim;
     public Animator endLevelAnim;
     public GameObject mainCamera;
     public GameObject dialogueTrigger;
@@ -76,6 +78,7 @@ public class GameState : MonoBehaviour
             PlayerPrefs.SetInt("FirstRun", 1);
         }
 
+
         //initiliaze spawn interval and score multiplier for level
         spawnIntervalOffset = PlayerPrefs.GetFloat("ModeSpawnInterval", 1);
         projectileSpeedOffset = PlayerPrefs.GetFloat("ModeProjectileSpeed", 1);
@@ -86,11 +89,23 @@ public class GameState : MonoBehaviour
 
     private void Update()
     {
-        if(levelComplete == true)
+        if(levelDialogue == false && levelStart == true)
+        {
+            startLevelAnim.SetBool("FadeIn", true);
+            GetComponent<AudioSource>().Play();
+            levelStart = false;
+        }
+
+        if (startLevelAnim.GetCurrentAnimatorStateInfo(0).IsName("WarningFadeOut"))
+        {
+            startLevelAnim.SetBool("FadeIn", false);
+        }
+
+        if (levelComplete == true)
         {
             StartCoroutine(DelayEndLevel());
-
         }
+
     }
 
     IEnumerator DelayEndLevel()

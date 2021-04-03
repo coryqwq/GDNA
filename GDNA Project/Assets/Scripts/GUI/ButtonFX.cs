@@ -8,7 +8,7 @@ public class ButtonFX : MonoBehaviour
 
     private AudioSource buttonAudio;
     public AudioClip[] buttonAudioClips;
-
+    public GameObject player;
     //assign AudioSource component
     private void Start()
     {
@@ -56,5 +56,4 @@ public class ButtonFX : MonoBehaviour
     {
         buttonAudio.PlayOneShot(buttonAudioClips[2]);
     }
-
 }
